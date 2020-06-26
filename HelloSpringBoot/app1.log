@@ -1,0 +1,32 @@
+2020-06-24 14:46:48.676  INFO 26804 --- [main] k.a.h.cse.HelloSpringBootApplication     : Starting HelloSpringBootApplication on DESKTOP-DS3H36O with PID 26804 (C:\dev\workwpace\HelloSpringBoot\target\classes started by LEESM in C:\dev\workwpace\HelloSpringBoot)
+2020-06-24 14:46:48.681  INFO 26804 --- [main] k.a.h.cse.HelloSpringBootApplication     : No active profile set, falling back to default profiles: default
+2020-06-24 14:46:51.105  INFO 26804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2020-06-24 14:46:51.121  INFO 26804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 14:46:51.122  INFO 26804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-24 14:46:51.251  INFO 26804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 14:46:51.251  INFO 26804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2490 ms
+2020-06-24 14:46:51.527  INFO 26804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 14:46:51.638  INFO 26804 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-24 14:46:51.847  INFO 26804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-24 14:46:51.877  INFO 26804 --- [main] k.a.h.cse.HelloSpringBootApplication     : Started HelloSpringBootApplication in 4.039 seconds (JVM running for 4.693)
+2020-06-24 14:47:56.544  INFO 26804 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 14:47:56.546  INFO 26804 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-24 14:47:56.558  INFO 26804 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-06-24 14:47:56.590  INFO 26804 --- [http-nio-9000-exec-1] k.a.h.cse.controller.HomeController      : Info: Calling home( )
+2020-06-24 14:48:28.259  INFO 26804 --- [http-nio-9000-exec-4] k.a.h.cse.controller.HomeController      : Info: Calling home( )
+2020-06-24 14:49:02.653  INFO 21908 --- [main] k.a.h.cse.HelloSpringBootApplication     : Starting HelloSpringBootApplication on DESKTOP-DS3H36O with PID 21908 (C:\dev\workwpace\HelloSpringBoot\target\classes started by LEESM in C:\dev\workwpace\HelloSpringBoot)
+2020-06-24 14:49:02.658  INFO 21908 --- [main] k.a.h.cse.HelloSpringBootApplication     : No active profile set, falling back to default profiles: default
+2020-06-24 14:49:05.275  INFO 21908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2020-06-24 14:49:05.291  INFO 21908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 14:49:05.292  INFO 21908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-24 14:49:05.413  INFO 21908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 14:49:05.414  INFO 21908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2689 ms
+2020-06-24 14:49:05.666  INFO 21908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 14:49:05.774  INFO 21908 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-24 14:49:05.959  INFO 21908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-24 14:49:05.988  INFO 21908 --- [main] k.a.h.cse.HelloSpringBootApplication     : Started HelloSpringBootApplication in 4.04 seconds (JVM running for 4.591)
+2020-06-24 14:49:15.742  INFO 21908 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 14:49:15.744  INFO 21908 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-24 14:49:15.757  INFO 21908 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-06-24 14:49:15.790  INFO 21908 --- [http-nio-9000-exec-1] k.a.h.cse.controller.HomeController      : Info: Calling home( )
+2020-06-24 14:52:35.266  INFO 21908 --- [http-nio-9000-exec-4] k.a.h.cse.controller.HomeController      : Info: Calling home( )
