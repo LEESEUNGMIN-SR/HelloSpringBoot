@@ -1,7 +1,33 @@
-# HelloSpringBoot
-HW_3
-
 ## 1. Main URL
+
+#### 먼저 resources의 application.properties 
+
+#### 여기서 포트를 지정한다(9090)
+
+```properties
+server.port=9090
+
+spring.datasource.url=jdbc:mysql://localhost:3306/helloproductdb-1591025?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+spring.datasource.username=root
+spring.datasource.password=741963
+
+spring.jpa.hibernate.ddl-auto	=create
+
+spring.datasource.initialization-mode=always
+
+info.app.name=My Super Cool App
+info.app.descritions=A fun app
+info.app.version=1.0.0
+
+#management.endpoints.web.exposure.include=mappings,health
+management.endpoints.web.exposure.include=*
+
+#logging
+logging.level.kr.ac.hansung.cse=INFO
+logging.file.name=app1.log
+```
+
+#### 여기는 주소 /api/v1 를 지정한다
 
 ```java
 @RestController
@@ -13,17 +39,87 @@ public class ProductController {
 
 
 
+#### 이렇게 Main URL은
+
+#### http://localhost:9090/api/v1/ 이 된다
+
+
+
 ## 2. API method
 
-#### POST|http://localhost:9090/api/v1/products
+#### - POST|http://localhost:9090/api/v1/products
 
-![image-20200626174403477](C:\Users\LEESM\AppData\Roaming\Typora\typora-user-images\image-20200626174403477.png)
+![image-20200626182205258](image-20200626182205258.png)
 
 
+
+---
+
+### - GET|http://localhost:9090/api/v1/products
+
+![image-20200626182145152](image-20200626182145152.png)
+
+
+
+---
+
+### - GET |http://localhost:9090/api/v1/products/1
+
+![image-20200626182125011](image-20200626182125011.png)
+
+
+
+---
+
+### - GET|http://localhost:9090/api/v1/products/category/etc
+
+![image-20200626182106806](image-20200626182106806.png)
+
+
+
+------
+
+### -PUT|http://localhost:9090/api/v1/products/11
+
+#### Body
+
+```json
+{
+
+  "name": "updateTest",
+
+  "category": "testUpdate",
+
+  "price": 1000
+
+}
+```
+
+#### response
+
+![image-20200626181851880](image-20200626181851880.png)
+
+
+
+---
+
+#### - DELETE|http://localhost:9090/api/v1/products/10
+
+![image-20200626181823856](image-20200626181823856.png)
+
+204 No Content가 나오면 성공이다
+
+body부분은 비어서 온다.
 
 
 
 ## 3. URL Mapping
+
+### 주소 : http://localhost:9090/actuator/mappings
+
+
+
+#### 결과값(현재 CustomerController의 URL도 출력이 된다.)
 
 ```json
 {
